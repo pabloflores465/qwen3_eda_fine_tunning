@@ -1,0 +1,49 @@
+# Python virtual environment
+.venv-mlx/
+venv/
+env/
+
+# Model files (too large for git)
+Qwen3-4B-Thinking-2507-MLX-4bit/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files
+*.csv
+*.h5
+*.pkl
+
+# Embedded git repositories
+sources/RTL-Coder/
+sources/mg-verilog/
+
+# Large log files
+sources/combine_log.txt
+
+# Dataset directories
+sources/combined_dataset/
+sources/mg_verilog_datasets/
+sources/pyranet_verilog_local/
+sources/verigen_local/
