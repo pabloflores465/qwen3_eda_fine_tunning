@@ -1,0 +1,45 @@
+# Qwen3 Verilog LoRA Fine-tuning Configuration
+# Optimized for 8GB RAM Apple Silicon
+
+model:
+  path: "Qwen3-4B-Thinking-2507-MLX-4bit"
+  adapter_path: "adapters"
+
+dataset:
+  train_file: "sources/combined_dataset/train.jsonl"
+  valid_file: "sources/combined_dataset/valid.jsonl"
+  max_seq_length: 2048
+
+lora:
+  rank: 8  # Higher = better quality but more memory
+  alpha: 16  # Typically 2x rank
+  dropout: 0.05
+  layers: 16  # Number of transformer layers to apply LoRA
+
+training:
+  batch_size: 1
+  gradient_accumulation_steps: 4  # Effective batch = 4
+  learning_rate: 0.0001
+  num_epochs: 3
+  warmup_steps: 100
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+
+optimization:
+  grad_checkpoint: true  # Enable to save memory
+
+logging:
+  log_every: 10
+  eval_every: 500
+  save_every: 1000
+  save_total_limit: 3
+
+system:
+  seed: 42
+  num_workers: 2
+
+# Notes:
+# - Increase batch_size to 2 if you have more RAM available
+# - Increase lora_rank to 16 or 32 for better quality (uses more memory)
+# - Reduce max_seq_length to 1024 if running out of memory
+# - Set gradient_accumulation_steps higher for larger effective batch size
