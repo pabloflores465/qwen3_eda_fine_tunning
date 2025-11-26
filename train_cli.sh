@@ -20,11 +20,12 @@ echo "Clearing system caches..."
 sync
 
 echo ""
-echo "Starting training with memory-optimized settings..."
+echo "Starting training with ULTRA memory-optimized settings..."
 echo "  - batch-size: 1"
-echo "  - lora-layers: 4 (minimum for 8GB)"
+echo "  - lora-layers: 4 (minimum)"
 echo "  - grad-checkpoint: enabled"
-echo "  - max-seq-length: 512"
+echo "  - max-seq-length: 256 (reduced)"
+echo "  - val-batches: 1"
 echo ""
 
 # Use the CLI tool directly - it handles data streaming more efficiently
@@ -35,14 +36,14 @@ mlx_lm.lora \
     --fine-tune-type lora \
     --batch-size 1 \
     --num-layers 4 \
-    --iters 10000 \
-    --val-batches 2 \
+    --iters 5000 \
+    --val-batches 1 \
     --learning-rate 1e-4 \
     --steps-per-report 10 \
-    --steps-per-eval 500 \
+    --steps-per-eval 1000 \
     --save-every 500 \
     --adapter-path adapters \
-    --max-seq-length 512 \
+    --max-seq-length 256 \
     --grad-checkpoint \
     --seed 42
 
