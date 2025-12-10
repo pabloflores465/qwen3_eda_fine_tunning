@@ -1,0 +1,76 @@
+{
+  "baseline": [
+    {
+      "prompt": "Write a Verilog 4-bit counter",
+      "response": "usage: mlx_lm.generate [-h] [--model MODEL] [--trust-remote-code]\n                       [--adapter-path ADAPTER_PATH]\n                       [--extra-eos-token EXTRA_EOS_TOKEN [EXTRA_EOS_TOKEN ...]]\n                       [--system-prompt SYSTEM_PROMPT] [--prompt PROMPT]\n                       [--prefill-response PREFILL_RESPONSE]\n                       [--max-tokens MAX_TOKENS] [--temp TEMP] [--top-p TOP_P]\n                       [--min-p MIN_P] [--top-k TOP_K]\n                       [--xtc-probability XTC_PROBABILITY]\n                       [--xtc-threshold XTC_THRESHOLD]\n                       [--min-tokens-to-keep MIN_TOKENS_TO_KEEP] [--seed SEED]\n                       [--ignore-chat-template] [--use-default-chat-template]\n                       [--chat-template-config CHAT_TEMPLATE_CONFIG]\n                       [--verbose VERBOSE] [--max-kv-size MAX_KV_SIZE]\n                       [--prompt-cache-file PROMPT_CACHE_FILE]\n                       [--kv-bits KV_BITS] [--kv-group-size KV_GROUP_SIZE]\n                       [--quantized-kv-start QUANTIZED_KV_START]\n                       [--draft-model DRAFT_MODEL]\n                       [--num-draft-tokens NUM_DRAFT_TOKENS]\nmlx_lm.generate: error: argument --verbose: expected one argument",
+      "total_time": 1.3918752670288086,
+      "tokens_generated": 81,
+      "tokens_per_second": 58.19486984125244
+    },
+    {
+      "prompt": "Design a Verilog D flip-flop with async reset",
+      "response": "usage: mlx_lm.generate [-h] [--model MODEL] [--trust-remote-code]\n                       [--adapter-path ADAPTER_PATH]\n                       [--extra-eos-token EXTRA_EOS_TOKEN [EXTRA_EOS_TOKEN ...]]\n                       [--system-prompt SYSTEM_PROMPT] [--prompt PROMPT]\n                       [--prefill-response PREFILL_RESPONSE]\n                       [--max-tokens MAX_TOKENS] [--temp TEMP] [--top-p TOP_P]\n                       [--min-p MIN_P] [--top-k TOP_K]\n                       [--xtc-probability XTC_PROBABILITY]\n                       [--xtc-threshold XTC_THRESHOLD]\n                       [--min-tokens-to-keep MIN_TOKENS_TO_KEEP] [--seed SEED]\n                       [--ignore-chat-template] [--use-default-chat-template]\n                       [--chat-template-config CHAT_TEMPLATE_CONFIG]\n                       [--verbose VERBOSE] [--max-kv-size MAX_KV_SIZE]\n                       [--prompt-cache-file PROMPT_CACHE_FILE]\n                       [--kv-bits KV_BITS] [--kv-group-size KV_GROUP_SIZE]\n                       [--quantized-kv-start QUANTIZED_KV_START]\n                       [--draft-model DRAFT_MODEL]\n                       [--num-draft-tokens NUM_DRAFT_TOKENS]\nmlx_lm.generate: error: argument --verbose: expected one argument",
+      "total_time": 0.8137052059173584,
+      "tokens_generated": 81,
+      "tokens_per_second": 99.54465009066998
+    },
+    {
+      "prompt": "Write a Verilog 2-to-1 multiplexer",
+      "response": "usage: mlx_lm.generate [-h] [--model MODEL] [--trust-remote-code]\n                       [--adapter-path ADAPTER_PATH]\n                       [--extra-eos-token EXTRA_EOS_TOKEN [EXTRA_EOS_TOKEN ...]]\n                       [--system-prompt SYSTEM_PROMPT] [--prompt PROMPT]\n                       [--prefill-response PREFILL_RESPONSE]\n                       [--max-tokens MAX_TOKENS] [--temp TEMP] [--top-p TOP_P]\n                       [--min-p MIN_P] [--top-k TOP_K]\n                       [--xtc-probability XTC_PROBABILITY]\n                       [--xtc-threshold XTC_THRESHOLD]\n                       [--min-tokens-to-keep MIN_TOKENS_TO_KEEP] [--seed SEED]\n                       [--ignore-chat-template] [--use-default-chat-template]\n                       [--chat-template-config CHAT_TEMPLATE_CONFIG]\n                       [--verbose VERBOSE] [--max-kv-size MAX_KV_SIZE]\n                       [--prompt-cache-file PROMPT_CACHE_FILE]\n                       [--kv-bits KV_BITS] [--kv-group-size KV_GROUP_SIZE]\n                       [--quantized-kv-start QUANTIZED_KV_START]\n                       [--draft-model DRAFT_MODEL]\n                       [--num-draft-tokens NUM_DRAFT_TOKENS]\nmlx_lm.generate: error: argument --verbose: expected one argument",
+      "total_time": 0.7985620498657227,
+      "tokens_generated": 81,
+      "tokens_per_second": 101.43231826959479
+    },
+    {
+      "prompt": "Create a Verilog FSM for traffic light controller",
+      "response": "usage: mlx_lm.generate [-h] [--model MODEL] [--trust-remote-code]\n                       [--adapter-path ADAPTER_PATH]\n                       [--extra-eos-token EXTRA_EOS_TOKEN [EXTRA_EOS_TOKEN ...]]\n                       [--system-prompt SYSTEM_PROMPT] [--prompt PROMPT]\n                       [--prefill-response PREFILL_RESPONSE]\n                       [--max-tokens MAX_TOKENS] [--temp TEMP] [--top-p TOP_P]\n                       [--min-p MIN_P] [--top-k TOP_K]\n                       [--xtc-probability XTC_PROBABILITY]\n                       [--xtc-threshold XTC_THRESHOLD]\n                       [--min-tokens-to-keep MIN_TOKENS_TO_KEEP] [--seed SEED]\n                       [--ignore-chat-template] [--use-default-chat-template]\n                       [--chat-template-config CHAT_TEMPLATE_CONFIG]\n                       [--verbose VERBOSE] [--max-kv-size MAX_KV_SIZE]\n                       [--prompt-cache-file PROMPT_CACHE_FILE]\n                       [--kv-bits KV_BITS] [--kv-group-size KV_GROUP_SIZE]\n                       [--quantized-kv-start QUANTIZED_KV_START]\n                       [--draft-model DRAFT_MODEL]\n                       [--num-draft-tokens NUM_DRAFT_TOKENS]\nmlx_lm.generate: error: argument --verbose: expected one argument",
+      "total_time": 0.7979750633239746,
+      "tokens_generated": 81,
+      "tokens_per_second": 101.50693138529108
+    },
+    {
+      "prompt": "Write a Verilog testbench for a 4-bit adder",
+      "response": "usage: mlx_lm.generate [-h] [--model MODEL] [--trust-remote-code]\n                       [--adapter-path ADAPTER_PATH]\n                       [--extra-eos-token EXTRA_EOS_TOKEN [EXTRA_EOS_TOKEN ...]]\n                       [--system-prompt SYSTEM_PROMPT] [--prompt PROMPT]\n                       [--prefill-response PREFILL_RESPONSE]\n                       [--max-tokens MAX_TOKENS] [--temp TEMP] [--top-p TOP_P]\n                       [--min-p MIN_P] [--top-k TOP_K]\n                       [--xtc-probability XTC_PROBABILITY]\n                       [--xtc-threshold XTC_THRESHOLD]\n                       [--min-tokens-to-keep MIN_TOKENS_TO_KEEP] [--seed SEED]\n                       [--ignore-chat-template] [--use-default-chat-template]\n                       [--chat-template-config CHAT_TEMPLATE_CONFIG]\n                       [--verbose VERBOSE] [--max-kv-size MAX_KV_SIZE]\n                       [--prompt-cache-file PROMPT_CACHE_FILE]\n                       [--kv-bits KV_BITS] [--kv-group-size KV_GROUP_SIZE]\n                       [--quantized-kv-start QUANTIZED_KV_START]\n                       [--draft-model DRAFT_MODEL]\n                       [--num-draft-tokens NUM_DRAFT_TOKENS]\nmlx_lm.generate: error: argument --verbose: expected one argument",
+      "total_time": 0.828233003616333,
+      "tokens_generated": 81,
+      "tokens_per_second": 97.7985659184406
+    }
+  ],
+  "finetuned": [
+    {
+      "prompt": "Write a Verilog 4-bit counter",
+      "response": "usage: mlx_lm.generate [-h] [--model MODEL] [--trust-remote-code]\n                       [--adapter-path ADAPTER_PATH]\n                       [--extra-eos-token EXTRA_EOS_TOKEN [EXTRA_EOS_TOKEN ...]]\n                       [--system-prompt SYSTEM_PROMPT] [--prompt PROMPT]\n                       [--prefill-response PREFILL_RESPONSE]\n                       [--max-tokens MAX_TOKENS] [--temp TEMP] [--top-p TOP_P]\n                       [--min-p MIN_P] [--top-k TOP_K]\n                       [--xtc-probability XTC_PROBABILITY]\n                       [--xtc-threshold XTC_THRESHOLD]\n                       [--min-tokens-to-keep MIN_TOKENS_TO_KEEP] [--seed SEED]\n                       [--ignore-chat-template] [--use-default-chat-template]\n                       [--chat-template-config CHAT_TEMPLATE_CONFIG]\n                       [--verbose VERBOSE] [--max-kv-size MAX_KV_SIZE]\n                       [--prompt-cache-file PROMPT_CACHE_FILE]\n                       [--kv-bits KV_BITS] [--kv-group-size KV_GROUP_SIZE]\n                       [--quantized-kv-start QUANTIZED_KV_START]\n                       [--draft-model DRAFT_MODEL]\n                       [--num-draft-tokens NUM_DRAFT_TOKENS]\nmlx_lm.generate: error: argument --verbose: expected one argument",
+      "total_time": 0.813014030456543,
+      "tokens_generated": 81,
+      "tokens_per_second": 99.62927694435353
+    },
+    {
+      "prompt": "Design a Verilog D flip-flop with async reset",
+      "response": "usage: mlx_lm.generate [-h] [--model MODEL] [--trust-remote-code]\n                       [--adapter-path ADAPTER_PATH]\n                       [--extra-eos-token EXTRA_EOS_TOKEN [EXTRA_EOS_TOKEN ...]]\n                       [--system-prompt SYSTEM_PROMPT] [--prompt PROMPT]\n                       [--prefill-response PREFILL_RESPONSE]\n                       [--max-tokens MAX_TOKENS] [--temp TEMP] [--top-p TOP_P]\n                       [--min-p MIN_P] [--top-k TOP_K]\n                       [--xtc-probability XTC_PROBABILITY]\n                       [--xtc-threshold XTC_THRESHOLD]\n                       [--min-tokens-to-keep MIN_TOKENS_TO_KEEP] [--seed SEED]\n                       [--ignore-chat-template] [--use-default-chat-template]\n                       [--chat-template-config CHAT_TEMPLATE_CONFIG]\n                       [--verbose VERBOSE] [--max-kv-size MAX_KV_SIZE]\n                       [--prompt-cache-file PROMPT_CACHE_FILE]\n                       [--kv-bits KV_BITS] [--kv-group-size KV_GROUP_SIZE]\n                       [--quantized-kv-start QUANTIZED_KV_START]\n                       [--draft-model DRAFT_MODEL]\n                       [--num-draft-tokens NUM_DRAFT_TOKENS]\nmlx_lm.generate: error: argument --verbose: expected one argument",
+      "total_time": 0.8063061237335205,
+      "tokens_generated": 81,
+      "tokens_per_second": 100.45812330549784
+    },
+    {
+      "prompt": "Write a Verilog 2-to-1 multiplexer",
+      "response": "usage: mlx_lm.generate [-h] [--model MODEL] [--trust-remote-code]\n                       [--adapter-path ADAPTER_PATH]\n                       [--extra-eos-token EXTRA_EOS_TOKEN [EXTRA_EOS_TOKEN ...]]\n                       [--system-prompt SYSTEM_PROMPT] [--prompt PROMPT]\n                       [--prefill-response PREFILL_RESPONSE]\n                       [--max-tokens MAX_TOKENS] [--temp TEMP] [--top-p TOP_P]\n                       [--min-p MIN_P] [--top-k TOP_K]\n                       [--xtc-probability XTC_PROBABILITY]\n                       [--xtc-threshold XTC_THRESHOLD]\n                       [--min-tokens-to-keep MIN_TOKENS_TO_KEEP] [--seed SEED]\n                       [--ignore-chat-template] [--use-default-chat-template]\n                       [--chat-template-config CHAT_TEMPLATE_CONFIG]\n                       [--verbose VERBOSE] [--max-kv-size MAX_KV_SIZE]\n                       [--prompt-cache-file PROMPT_CACHE_FILE]\n                       [--kv-bits KV_BITS] [--kv-group-size KV_GROUP_SIZE]\n                       [--quantized-kv-start QUANTIZED_KV_START]\n                       [--draft-model DRAFT_MODEL]\n                       [--num-draft-tokens NUM_DRAFT_TOKENS]\nmlx_lm.generate: error: argument --verbose: expected one argument",
+      "total_time": 0.8106939792633057,
+      "tokens_generated": 81,
+      "tokens_per_second": 99.91439688944818
+    },
+    {
+      "prompt": "Create a Verilog FSM for traffic light controller",
+      "response": "usage: mlx_lm.generate [-h] [--model MODEL] [--trust-remote-code]\n                       [--adapter-path ADAPTER_PATH]\n                       [--extra-eos-token EXTRA_EOS_TOKEN [EXTRA_EOS_TOKEN ...]]\n                       [--system-prompt SYSTEM_PROMPT] [--prompt PROMPT]\n                       [--prefill-response PREFILL_RESPONSE]\n                       [--max-tokens MAX_TOKENS] [--temp TEMP] [--top-p TOP_P]\n                       [--min-p MIN_P] [--top-k TOP_K]\n                       [--xtc-probability XTC_PROBABILITY]\n                       [--xtc-threshold XTC_THRESHOLD]\n                       [--min-tokens-to-keep MIN_TOKENS_TO_KEEP] [--seed SEED]\n                       [--ignore-chat-template] [--use-default-chat-template]\n                       [--chat-template-config CHAT_TEMPLATE_CONFIG]\n                       [--verbose VERBOSE] [--max-kv-size MAX_KV_SIZE]\n                       [--prompt-cache-file PROMPT_CACHE_FILE]\n                       [--kv-bits KV_BITS] [--kv-group-size KV_GROUP_SIZE]\n                       [--quantized-kv-start QUANTIZED_KV_START]\n                       [--draft-model DRAFT_MODEL]\n                       [--num-draft-tokens NUM_DRAFT_TOKENS]\nmlx_lm.generate: error: argument --verbose: expected one argument",
+      "total_time": 0.8197948932647705,
+      "tokens_generated": 81,
+      "tokens_per_second": 98.80520196634025
+    },
+    {
+      "prompt": "Write a Verilog testbench for a 4-bit adder",
+      "response": "usage: mlx_lm.generate [-h] [--model MODEL] [--trust-remote-code]\n                       [--adapter-path ADAPTER_PATH]\n                       [--extra-eos-token EXTRA_EOS_TOKEN [EXTRA_EOS_TOKEN ...]]\n                       [--system-prompt SYSTEM_PROMPT] [--prompt PROMPT]\n                       [--prefill-response PREFILL_RESPONSE]\n                       [--max-tokens MAX_TOKENS] [--temp TEMP] [--top-p TOP_P]\n                       [--min-p MIN_P] [--top-k TOP_K]\n                       [--xtc-probability XTC_PROBABILITY]\n                       [--xtc-threshold XTC_THRESHOLD]\n                       [--min-tokens-to-keep MIN_TOKENS_TO_KEEP] [--seed SEED]\n                       [--ignore-chat-template] [--use-default-chat-template]\n                       [--chat-template-config CHAT_TEMPLATE_CONFIG]\n                       [--verbose VERBOSE] [--max-kv-size MAX_KV_SIZE]\n                       [--prompt-cache-file PROMPT_CACHE_FILE]\n                       [--kv-bits KV_BITS] [--kv-group-size KV_GROUP_SIZE]\n                       [--quantized-kv-start QUANTIZED_KV_START]\n                       [--draft-model DRAFT_MODEL]\n                       [--num-draft-tokens NUM_DRAFT_TOKENS]\nmlx_lm.generate: error: argument --verbose: expected one argument",
+      "total_time": 0.8985567092895508,
+      "tokens_generated": 81,
+      "tokens_per_second": 90.1445608970447
+    }
+  ]
+}

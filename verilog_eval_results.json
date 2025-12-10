@@ -1,0 +1,2210 @@
+{
+  "timestamp": "2025-12-10T01:09:11.935121",
+  "benchmark": "VerilogEval v2 (spec-to-rtl)",
+  "baseline": {
+    "model": "Baseline (No Adapter)",
+    "total_problems": 156,
+    "compile_success": 31,
+    "test_pass": 27,
+    "pass_at_1": 17.307692307692307,
+    "compile_rate": 19.871794871794872,
+    "avg_generation_time": 98.25900799953021,
+    "results": [
+      {
+        "id": "Prob001",
+        "name": "zero",
+        "compiles": false,
+        "passes": false,
+        "time": 95.78542184829712
+      },
+      {
+        "id": "Prob002",
+        "name": "m2014_q4i",
+        "compiles": true,
+        "passes": true,
+        "time": 93.45054411888123
+      },
+      {
+        "id": "Prob003",
+        "name": "step_one",
+        "compiles": false,
+        "passes": false,
+        "time": 90.65224027633667
+      },
+      {
+        "id": "Prob004",
+        "name": "vector2",
+        "compiles": false,
+        "passes": false,
+        "time": 94.33803606033325
+      },
+      {
+        "id": "Prob005",
+        "name": "notgate",
+        "compiles": true,
+        "passes": true,
+        "time": 35.258455753326416
+      },
+      {
+        "id": "Prob006",
+        "name": "vectorr",
+        "compiles": false,
+        "passes": false,
+        "time": 94.83033895492554
+      },
+      {
+        "id": "Prob007",
+        "name": "wire",
+        "compiles": true,
+        "passes": true,
+        "time": 68.82722973823547
+      },
+      {
+        "id": "Prob008",
+        "name": "m2014_q4h",
+        "compiles": false,
+        "passes": false,
+        "time": 83.06729698181152
+      },
+      {
+        "id": "Prob009",
+        "name": "popcount3",
+        "compiles": true,
+        "passes": false,
+        "time": 96.1179552078247
+      },
+      {
+        "id": "Prob010",
+        "name": "mt2015_q4a",
+        "compiles": true,
+        "passes": true,
+        "time": 96.68547201156616
+      },
+      {
+        "id": "Prob011",
+        "name": "norgate",
+        "compiles": false,
+        "passes": false,
+        "time": 28.61412501335144
+      },
+      {
+        "id": "Prob012",
+        "name": "xnorgate",
+        "compiles": true,
+        "passes": true,
+        "time": 85.95428586006165
+      },
+      {
+        "id": "Prob013",
+        "name": "m2014_q4e",
+        "compiles": true,
+        "passes": true,
+        "time": 44.22532606124878
+      },
+      {
+        "id": "Prob014",
+        "name": "andgate",
+        "compiles": false,
+        "passes": false,
+        "time": 27.655956983566284
+      },
+      {
+        "id": "Prob015",
+        "name": "vector1",
+        "compiles": true,
+        "passes": true,
+        "time": 57.229618072509766
+      },
+      {
+        "id": "Prob016",
+        "name": "m2014_q4j",
+        "compiles": true,
+        "passes": false,
+        "time": 97.33636212348938
+      },
+      {
+        "id": "Prob017",
+        "name": "mux2to1v",
+        "compiles": false,
+        "passes": false,
+        "time": 99.28668689727783
+      },
+      {
+        "id": "Prob018",
+        "name": "mux256to1",
+        "compiles": false,
+        "passes": false,
+        "time": 99.02950620651245
+      },
+      {
+        "id": "Prob019",
+        "name": "m2014_q4f",
+        "compiles": true,
+        "passes": true,
+        "time": 43.61602473258972
+      },
+      {
+        "id": "Prob020",
+        "name": "mt2015_eq2",
+        "compiles": false,
+        "passes": false,
+        "time": 52.34723687171936
+      },
+      {
+        "id": "Prob021",
+        "name": "mux256to1v",
+        "compiles": false,
+        "passes": false,
+        "time": 98.67907404899597
+      },
+      {
+        "id": "Prob022",
+        "name": "mux2to1",
+        "compiles": false,
+        "passes": false,
+        "time": 45.5136239528656
+      },
+      {
+        "id": "Prob023",
+        "name": "vector100r",
+        "compiles": false,
+        "passes": false,
+        "time": 99.00810098648071
+      },
+      {
+        "id": "Prob024",
+        "name": "hadd",
+        "compiles": true,
+        "passes": true,
+        "time": 31.345213890075684
+      },
+      {
+        "id": "Prob025",
+        "name": "reduction",
+        "compiles": true,
+        "passes": true,
+        "time": 93.54267311096191
+      },
+      {
+        "id": "Prob026",
+        "name": "alwaysblock1",
+        "compiles": false,
+        "passes": false,
+        "time": 55.613078117370605
+      },
+      {
+        "id": "Prob027",
+        "name": "fadd",
+        "compiles": true,
+        "passes": true,
+        "time": 44.987300872802734
+      },
+      {
+        "id": "Prob028",
+        "name": "m2014_q4a",
+        "compiles": false,
+        "passes": false,
+        "time": 98.18015384674072
+      },
+      {
+        "id": "Prob029",
+        "name": "m2014_q4g",
+        "compiles": true,
+        "passes": true,
+        "time": 99.4285569190979
+      },
+      {
+        "id": "Prob030",
+        "name": "popcount255",
+        "compiles": false,
+        "passes": false,
+        "time": 99.46484303474426
+      },
+      {
+        "id": "Prob031",
+        "name": "dff",
+        "compiles": false,
+        "passes": false,
+        "time": 84.78693294525146
+      },
+      {
+        "id": "Prob032",
+        "name": "vector0",
+        "compiles": false,
+        "passes": false,
+        "time": 93.30198812484741
+      },
+      {
+        "id": "Prob033",
+        "name": "ece241_2014_q1c",
+        "compiles": false,
+        "passes": false,
+        "time": 101.3284900188446
+      },
+      {
+        "id": "Prob034",
+        "name": "dff8",
+        "compiles": false,
+        "passes": false,
+        "time": 99.89008522033691
+      },
+      {
+        "id": "Prob035",
+        "name": "count1to10",
+        "compiles": false,
+        "passes": false,
+        "time": 100.81148910522461
+      },
+      {
+        "id": "Prob036",
+        "name": "ringer",
+        "compiles": false,
+        "passes": false,
+        "time": 100.18689012527466
+      },
+      {
+        "id": "Prob037",
+        "name": "review2015_count1k",
+        "compiles": false,
+        "passes": false,
+        "time": 99.53978610038757
+      },
+      {
+        "id": "Prob038",
+        "name": "count15",
+        "compiles": true,
+        "passes": true,
+        "time": 100.91347098350525
+      },
+      {
+        "id": "Prob039",
+        "name": "always_if",
+        "compiles": false,
+        "passes": false,
+        "time": 100.61837720870972
+      },
+      {
+        "id": "Prob040",
+        "name": "count10",
+        "compiles": false,
+        "passes": false,
+        "time": 105.81137990951538
+      },
+      {
+        "id": "Prob041",
+        "name": "dff8r",
+        "compiles": false,
+        "passes": false,
+        "time": 109.31763625144958
+      },
+      {
+        "id": "Prob042",
+        "name": "vector4",
+        "compiles": true,
+        "passes": true,
+        "time": 78.6236002445221
+      },
+      {
+        "id": "Prob043",
+        "name": "vector5",
+        "compiles": false,
+        "passes": false,
+        "time": 101.89459586143494
+      },
+      {
+        "id": "Prob044",
+        "name": "vectorgates",
+        "compiles": false,
+        "passes": false,
+        "time": 101.7075309753418
+      },
+      {
+        "id": "Prob045",
+        "name": "edgedetect2",
+        "compiles": false,
+        "passes": false,
+        "time": 103.93303608894348
+      },
+      {
+        "id": "Prob046",
+        "name": "dff8p",
+        "compiles": true,
+        "passes": true,
+        "time": 101.82176494598389
+      },
+      {
+        "id": "Prob047",
+        "name": "dff8ar",
+        "compiles": false,
+        "passes": false,
+        "time": 101.03536200523376
+      },
+      {
+        "id": "Prob048",
+        "name": "m2014_q4c",
+        "compiles": false,
+        "passes": false,
+        "time": 100.8052921295166
+      },
+      {
+        "id": "Prob049",
+        "name": "m2014_q4b",
+        "compiles": false,
+        "passes": false,
+        "time": 101.11760401725769
+      },
+      {
+        "id": "Prob050",
+        "name": "kmap1",
+        "compiles": false,
+        "passes": false,
+        "time": 102.14695501327515
+      },
+      {
+        "id": "Prob051",
+        "name": "gates4",
+        "compiles": true,
+        "passes": true,
+        "time": 84.0020182132721
+      },
+      {
+        "id": "Prob052",
+        "name": "gates100",
+        "compiles": true,
+        "passes": true,
+        "time": 97.57238411903381
+      },
+      {
+        "id": "Prob053",
+        "name": "m2014_q4d",
+        "compiles": true,
+        "passes": false,
+        "time": 101.9154748916626
+      },
+      {
+        "id": "Prob054",
+        "name": "edgedetect",
+        "compiles": false,
+        "passes": false,
+        "time": 102.29781198501587
+      },
+      {
+        "id": "Prob055",
+        "name": "conditional",
+        "compiles": false,
+        "passes": false,
+        "time": 102.64801406860352
+      },
+      {
+        "id": "Prob056",
+        "name": "ece241_2013_q7",
+        "compiles": true,
+        "passes": true,
+        "time": 93.3112382888794
+      },
+      {
+        "id": "Prob057",
+        "name": "kmap2",
+        "compiles": false,
+        "passes": false,
+        "time": 104.51319885253906
+      },
+      {
+        "id": "Prob058",
+        "name": "alwaysblock2",
+        "compiles": false,
+        "passes": false,
+        "time": 104.0282530784607
+      },
+      {
+        "id": "Prob059",
+        "name": "wire4",
+        "compiles": true,
+        "passes": true,
+        "time": 30.035918951034546
+      },
+      {
+        "id": "Prob060",
+        "name": "m2014_q4k",
+        "compiles": true,
+        "passes": false,
+        "time": 102.6112470626831
+      },
+      {
+        "id": "Prob061",
+        "name": "2014_q4a",
+        "compiles": false,
+        "passes": false,
+        "time": 103.34045314788818
+      },
+      {
+        "id": "Prob062",
+        "name": "bugs_mux2",
+        "compiles": false,
+        "passes": false,
+        "time": 102.68557810783386
+      },
+      {
+        "id": "Prob063",
+        "name": "review2015_shiftcount",
+        "compiles": false,
+        "passes": false,
+        "time": 104.13568711280823
+      },
+      {
+        "id": "Prob064",
+        "name": "vector3",
+        "compiles": false,
+        "passes": false,
+        "time": 104.88063716888428
+      },
+      {
+        "id": "Prob065",
+        "name": "7420",
+        "compiles": true,
+        "passes": true,
+        "time": 75.35802292823792
+      },
+      {
+        "id": "Prob066",
+        "name": "edgecapture",
+        "compiles": false,
+        "passes": false,
+        "time": 103.28153395652771
+      },
+      {
+        "id": "Prob067",
+        "name": "countslow",
+        "compiles": false,
+        "passes": false,
+        "time": 103.94040131568909
+      },
+      {
+        "id": "Prob068",
+        "name": "countbcd",
+        "compiles": false,
+        "passes": false,
+        "time": 104.02636289596558
+      },
+      {
+        "id": "Prob069",
+        "name": "truthtable1",
+        "compiles": true,
+        "passes": true,
+        "time": 104.24022603034973
+      },
+      {
+        "id": "Prob070",
+        "name": "ece241_2013_q2",
+        "compiles": false,
+        "passes": false,
+        "time": 105.33392786979675
+      },
+      {
+        "id": "Prob071",
+        "name": "always_casez",
+        "compiles": false,
+        "passes": false,
+        "time": 103.44550585746765
+      },
+      {
+        "id": "Prob072",
+        "name": "thermostat",
+        "compiles": true,
+        "passes": true,
+        "time": 106.47465896606445
+      },
+      {
+        "id": "Prob073",
+        "name": "dff16e",
+        "compiles": false,
+        "passes": false,
+        "time": 107.05250906944275
+      },
+      {
+        "id": "Prob074",
+        "name": "ece241_2014_q4",
+        "compiles": false,
+        "passes": false,
+        "time": 106.38297605514526
+      },
+      {
+        "id": "Prob075",
+        "name": "counter_2bc",
+        "compiles": false,
+        "passes": false,
+        "time": 105.4453718662262
+      },
+      {
+        "id": "Prob076",
+        "name": "always_case",
+        "compiles": false,
+        "passes": false,
+        "time": 73.40335893630981
+      },
+      {
+        "id": "Prob077",
+        "name": "wire_decl",
+        "compiles": true,
+        "passes": true,
+        "time": 104.8135027885437
+      },
+      {
+        "id": "Prob078",
+        "name": "dualedge",
+        "compiles": false,
+        "passes": false,
+        "time": 103.61535286903381
+      },
+      {
+        "id": "Prob079",
+        "name": "fsm3onehot",
+        "compiles": false,
+        "passes": false,
+        "time": 105.69867706298828
+      },
+      {
+        "id": "Prob080",
+        "name": "timer",
+        "compiles": false,
+        "passes": false,
+        "time": 106.55632519721985
+      },
+      {
+        "id": "Prob081",
+        "name": "7458",
+        "compiles": true,
+        "passes": true,
+        "time": 107.95518779754639
+      },
+      {
+        "id": "Prob082",
+        "name": "lfsr32",
+        "compiles": false,
+        "passes": false,
+        "time": 106.99169373512268
+      },
+      {
+        "id": "Prob083",
+        "name": "mt2015_q4b",
+        "compiles": false,
+        "passes": false,
+        "time": 114.23431324958801
+      },
+      {
+        "id": "Prob084",
+        "name": "ece241_2013_q12",
+        "compiles": false,
+        "passes": false,
+        "time": 112.3682930469513
+      },
+      {
+        "id": "Prob085",
+        "name": "shift4",
+        "compiles": false,
+        "passes": false,
+        "time": 106.45315980911255
+      },
+      {
+        "id": "Prob086",
+        "name": "lfsr5",
+        "compiles": false,
+        "passes": false,
+        "time": 106.87931394577026
+      },
+      {
+        "id": "Prob087",
+        "name": "gates",
+        "compiles": true,
+        "passes": true,
+        "time": 106.55313897132874
+      },
+      {
+        "id": "Prob088",
+        "name": "ece241_2014_q5b",
+        "compiles": false,
+        "passes": false,
+        "time": 107.05524277687073
+      },
+      {
+        "id": "Prob089",
+        "name": "ece241_2014_q5a",
+        "compiles": false,
+        "passes": false,
+        "time": 107.12585210800171
+      },
+      {
+        "id": "Prob090",
+        "name": "circuit1",
+        "compiles": true,
+        "passes": true,
+        "time": 106.0821590423584
+      },
+      {
+        "id": "Prob091",
+        "name": "2012_q2b",
+        "compiles": false,
+        "passes": false,
+        "time": 110.99317669868469
+      },
+      {
+        "id": "Prob092",
+        "name": "gatesv100",
+        "compiles": false,
+        "passes": false,
+        "time": 112.54987478256226
+      },
+      {
+        "id": "Prob093",
+        "name": "ece241_2014_q3",
+        "compiles": false,
+        "passes": false,
+        "time": 112.46873807907104
+      },
+      {
+        "id": "Prob094",
+        "name": "gatesv",
+        "compiles": false,
+        "passes": false,
+        "time": 116.61966323852539
+      },
+      {
+        "id": "Prob095",
+        "name": "review2015_fsmshift",
+        "compiles": false,
+        "passes": false,
+        "time": 113.80710005760193
+      },
+      {
+        "id": "Prob096",
+        "name": "review2015_fsmseq",
+        "compiles": false,
+        "passes": false,
+        "time": 110.03896999359131
+      },
+      {
+        "id": "Prob097",
+        "name": "mux9to1v",
+        "compiles": false,
+        "passes": false,
+        "time": 110.57515215873718
+      },
+      {
+        "id": "Prob098",
+        "name": "circuit7",
+        "compiles": false,
+        "passes": false,
+        "time": 113.34745597839355
+      },
+      {
+        "id": "Prob099",
+        "name": "m2014_q6c",
+        "compiles": false,
+        "passes": false,
+        "time": 114.31673192977905
+      },
+      {
+        "id": "Prob100",
+        "name": "fsm3comb",
+        "compiles": false,
+        "passes": false,
+        "time": 112.0542299747467
+      },
+      {
+        "id": "Prob101",
+        "name": "circuit4",
+        "compiles": false,
+        "passes": false,
+        "time": 115.78523206710815
+      },
+      {
+        "id": "Prob102",
+        "name": "circuit3",
+        "compiles": false,
+        "passes": false,
+        "time": 116.20658493041992
+      },
+      {
+        "id": "Prob103",
+        "name": "circuit2",
+        "compiles": false,
+        "passes": false,
+        "time": 116.00530195236206
+      },
+      {
+        "id": "Prob104",
+        "name": "mt2015_muxdff",
+        "compiles": false,
+        "passes": false,
+        "time": 111.22450685501099
+      },
+      {
+        "id": "Prob105",
+        "name": "rotate100",
+        "compiles": false,
+        "passes": false,
+        "time": 111.64162611961365
+      },
+      {
+        "id": "Prob106",
+        "name": "always_nolatches",
+        "compiles": true,
+        "passes": true,
+        "time": 111.22749781608582
+      },
+      {
+        "id": "Prob107",
+        "name": "fsm1s",
+        "compiles": false,
+        "passes": false,
+        "time": 109.59599876403809
+      },
+      {
+        "id": "Prob108",
+        "name": "rule90",
+        "compiles": false,
+        "passes": false,
+        "time": 113.36143589019775
+      },
+      {
+        "id": "Prob109",
+        "name": "fsm1",
+        "compiles": false,
+        "passes": false,
+        "time": 109.62501096725464
+      },
+      {
+        "id": "Prob110",
+        "name": "fsm2",
+        "compiles": false,
+        "passes": false,
+        "time": 112.49540901184082
+      },
+      {
+        "id": "Prob111",
+        "name": "fsm2s",
+        "compiles": false,
+        "passes": false,
+        "time": 109.98825097084045
+      },
+      {
+        "id": "Prob112",
+        "name": "always_case2",
+        "compiles": false,
+        "passes": false,
+        "time": 113.03514099121094
+      },
+      {
+        "id": "Prob113",
+        "name": "2012_q1g",
+        "compiles": false,
+        "passes": false,
+        "time": 109.97294211387634
+      },
+      {
+        "id": "Prob114",
+        "name": "bugs_case",
+        "compiles": false,
+        "passes": false,
+        "time": 103.4153470993042
+      },
+      {
+        "id": "Prob115",
+        "name": "shift18",
+        "compiles": false,
+        "passes": false,
+        "time": 103.09108400344849
+      },
+      {
+        "id": "Prob116",
+        "name": "m2014_q3",
+        "compiles": false,
+        "passes": false,
+        "time": 101.95896100997925
+      },
+      {
+        "id": "Prob117",
+        "name": "circuit9",
+        "compiles": false,
+        "passes": false,
+        "time": 105.64628911018372
+      },
+      {
+        "id": "Prob118",
+        "name": "history_shift",
+        "compiles": false,
+        "passes": false,
+        "time": 106.05826997756958
+      },
+      {
+        "id": "Prob119",
+        "name": "fsm3",
+        "compiles": false,
+        "passes": false,
+        "time": 105.6360776424408
+      },
+      {
+        "id": "Prob120",
+        "name": "fsm3s",
+        "compiles": false,
+        "passes": false,
+        "time": 103.88829517364502
+      },
+      {
+        "id": "Prob121",
+        "name": "2014_q3bfsm",
+        "compiles": false,
+        "passes": false,
+        "time": 103.17814302444458
+      },
+      {
+        "id": "Prob122",
+        "name": "kmap4",
+        "compiles": false,
+        "passes": false,
+        "time": 99.19304299354553
+      },
+      {
+        "id": "Prob123",
+        "name": "bugs_addsubz",
+        "compiles": false,
+        "passes": false,
+        "time": 98.84774780273438
+      },
+      {
+        "id": "Prob124",
+        "name": "rule110",
+        "compiles": false,
+        "passes": false,
+        "time": 103.14001297950745
+      },
+      {
+        "id": "Prob125",
+        "name": "kmap3",
+        "compiles": false,
+        "passes": false,
+        "time": 100.2467589378357
+      },
+      {
+        "id": "Prob126",
+        "name": "circuit6",
+        "compiles": false,
+        "passes": false,
+        "time": 102.79342889785767
+      },
+      {
+        "id": "Prob127",
+        "name": "lemmings1",
+        "compiles": false,
+        "passes": false,
+        "time": 101.6433777809143
+      },
+      {
+        "id": "Prob128",
+        "name": "fsm_ps2",
+        "compiles": false,
+        "passes": false,
+        "time": 101.41645908355713
+      },
+      {
+        "id": "Prob129",
+        "name": "ece241_2013_q8",
+        "compiles": false,
+        "passes": false,
+        "time": 103.14104080200195
+      },
+      {
+        "id": "Prob130",
+        "name": "circuit5",
+        "compiles": false,
+        "passes": false,
+        "time": 105.33709216117859
+      },
+      {
+        "id": "Prob131",
+        "name": "mt2015_q4",
+        "compiles": false,
+        "passes": false,
+        "time": 104.70822787284851
+      },
+      {
+        "id": "Prob132",
+        "name": "always_if2",
+        "compiles": false,
+        "passes": false,
+        "time": 100.01800918579102
+      },
+      {
+        "id": "Prob133",
+        "name": "2014_q3fsm",
+        "compiles": false,
+        "passes": false,
+        "time": 101.4790210723877
+      },
+      {
+        "id": "Prob134",
+        "name": "2014_q3c",
+        "compiles": false,
+        "passes": false,
+        "time": 100.8654420375824
+      },
+      {
+        "id": "Prob135",
+        "name": "m2014_q6b",
+        "compiles": false,
+        "passes": false,
+        "time": 100.40819883346558
+      },
+      {
+        "id": "Prob136",
+        "name": "m2014_q6",
+        "compiles": false,
+        "passes": false,
+        "time": 100.15021896362305
+      },
+      {
+        "id": "Prob137",
+        "name": "fsm_serial",
+        "compiles": false,
+        "passes": false,
+        "time": 100.56258201599121
+      },
+      {
+        "id": "Prob138",
+        "name": "2012_q2fsm",
+        "compiles": false,
+        "passes": false,
+        "time": 100.78257894515991
+      },
+      {
+        "id": "Prob139",
+        "name": "2013_q2bfsm",
+        "compiles": false,
+        "passes": false,
+        "time": 102.55647206306458
+      },
+      {
+        "id": "Prob140",
+        "name": "fsm_hdlc",
+        "compiles": false,
+        "passes": false,
+        "time": 102.34764313697815
+      },
+      {
+        "id": "Prob141",
+        "name": "count_clock",
+        "compiles": false,
+        "passes": false,
+        "time": 100.7708113193512
+      },
+      {
+        "id": "Prob142",
+        "name": "lemmings2",
+        "compiles": false,
+        "passes": false,
+        "time": 102.913419008255
+      },
+      {
+        "id": "Prob143",
+        "name": "fsm_onehot",
+        "compiles": false,
+        "passes": false,
+        "time": 110.47346925735474
+      },
+      {
+        "id": "Prob144",
+        "name": "conwaylife",
+        "compiles": false,
+        "passes": false,
+        "time": 104.44314384460449
+      },
+      {
+        "id": "Prob145",
+        "name": "circuit8",
+        "compiles": false,
+        "passes": false,
+        "time": 110.143807888031
+      },
+      {
+        "id": "Prob146",
+        "name": "fsm_serialdata",
+        "compiles": false,
+        "passes": false,
+        "time": 104.51676797866821
+      },
+      {
+        "id": "Prob147",
+        "name": "circuit10",
+        "compiles": false,
+        "passes": false,
+        "time": 117.18412113189697
+      },
+      {
+        "id": "Prob148",
+        "name": "2013_q2afsm",
+        "compiles": false,
+        "passes": false,
+        "time": 105.68312191963196
+      },
+      {
+        "id": "Prob149",
+        "name": "ece241_2013_q4",
+        "compiles": false,
+        "passes": false,
+        "time": 101.59300994873047
+      },
+      {
+        "id": "Prob150",
+        "name": "review2015_fsmonehot",
+        "compiles": false,
+        "passes": false,
+        "time": 106.12684297561646
+      },
+      {
+        "id": "Prob151",
+        "name": "review2015_fsm",
+        "compiles": false,
+        "passes": false,
+        "time": 100.75936698913574
+      },
+      {
+        "id": "Prob152",
+        "name": "lemmings3",
+        "compiles": false,
+        "passes": false,
+        "time": 104.31967186927795
+      },
+      {
+        "id": "Prob153",
+        "name": "gshare",
+        "compiles": false,
+        "passes": false,
+        "time": 105.77159976959229
+      },
+      {
+        "id": "Prob154",
+        "name": "fsm_ps2data",
+        "compiles": false,
+        "passes": false,
+        "time": 115.55663108825684
+      },
+      {
+        "id": "Prob155",
+        "name": "lemmings4",
+        "compiles": false,
+        "passes": false,
+        "time": 106.68589615821838
+      },
+      {
+        "id": "Prob156",
+        "name": "review2015_fancytimer",
+        "compiles": false,
+        "passes": false,
+        "time": 103.60972380638123
+      }
+    ]
+  },
+  "finetuned": {
+    "model": "Fine-tuned (LoRA Adapter)",
+    "total_problems": 156,
+    "compile_success": 45,
+    "test_pass": 40,
+    "pass_at_1": 25.64102564102564,
+    "compile_rate": 28.846153846153843,
+    "avg_generation_time": 253.88763435681662,
+    "results": [
+      {
+        "id": "Prob001",
+        "name": "zero",
+        "compiles": true,
+        "passes": true,
+        "time": 9.49949598312378
+      },
+      {
+        "id": "Prob002",
+        "name": "m2014_q4i",
+        "compiles": true,
+        "passes": true,
+        "time": 7.380553960800171
+      },
+      {
+        "id": "Prob003",
+        "name": "step_one",
+        "compiles": true,
+        "passes": true,
+        "time": 19.834876775741577
+      },
+      {
+        "id": "Prob004",
+        "name": "vector2",
+        "compiles": true,
+        "passes": true,
+        "time": 99.5541079044342
+      },
+      {
+        "id": "Prob005",
+        "name": "notgate",
+        "compiles": false,
+        "passes": false,
+        "time": 33.84026789665222
+      },
+      {
+        "id": "Prob006",
+        "name": "vectorr",
+        "compiles": true,
+        "passes": true,
+        "time": 78.8525869846344
+      },
+      {
+        "id": "Prob007",
+        "name": "wire",
+        "compiles": true,
+        "passes": true,
+        "time": 10.6770339012146
+      },
+      {
+        "id": "Prob008",
+        "name": "m2014_q4h",
+        "compiles": true,
+        "passes": true,
+        "time": 10.671371698379517
+      },
+      {
+        "id": "Prob009",
+        "name": "popcount3",
+        "compiles": true,
+        "passes": true,
+        "time": 139.44318890571594
+      },
+      {
+        "id": "Prob010",
+        "name": "mt2015_q4a",
+        "compiles": true,
+        "passes": true,
+        "time": 59.08094501495361
+      },
+      {
+        "id": "Prob011",
+        "name": "norgate",
+        "compiles": true,
+        "passes": true,
+        "time": 21.9076189994812
+      },
+      {
+        "id": "Prob012",
+        "name": "xnorgate",
+        "compiles": true,
+        "passes": true,
+        "time": 45.53741121292114
+      },
+      {
+        "id": "Prob013",
+        "name": "m2014_q4e",
+        "compiles": true,
+        "passes": true,
+        "time": 27.477538108825684
+      },
+      {
+        "id": "Prob014",
+        "name": "andgate",
+        "compiles": true,
+        "passes": true,
+        "time": 9.706092596054077
+      },
+      {
+        "id": "Prob015",
+        "name": "vector1",
+        "compiles": true,
+        "passes": true,
+        "time": 45.69581484794617
+      },
+      {
+        "id": "Prob016",
+        "name": "m2014_q4j",
+        "compiles": false,
+        "passes": false,
+        "time": 111.26736116409302
+      },
+      {
+        "id": "Prob017",
+        "name": "mux2to1v",
+        "compiles": true,
+        "passes": true,
+        "time": 109.36440682411194
+      },
+      {
+        "id": "Prob018",
+        "name": "mux256to1",
+        "compiles": true,
+        "passes": true,
+        "time": 110.45075416564941
+      },
+      {
+        "id": "Prob019",
+        "name": "m2014_q4f",
+        "compiles": true,
+        "passes": true,
+        "time": 24.66204309463501
+      },
+      {
+        "id": "Prob020",
+        "name": "mt2015_eq2",
+        "compiles": false,
+        "passes": false,
+        "time": 113.3350419998169
+      },
+      {
+        "id": "Prob021",
+        "name": "mux256to1v",
+        "compiles": false,
+        "passes": false,
+        "time": 106.71394681930542
+      },
+      {
+        "id": "Prob022",
+        "name": "mux2to1",
+        "compiles": true,
+        "passes": true,
+        "time": 28.042279958724976
+      },
+      {
+        "id": "Prob023",
+        "name": "vector100r",
+        "compiles": false,
+        "passes": false,
+        "time": 101.03578114509583
+      },
+      {
+        "id": "Prob024",
+        "name": "hadd",
+        "compiles": true,
+        "passes": true,
+        "time": 21.666612148284912
+      },
+      {
+        "id": "Prob025",
+        "name": "reduction",
+        "compiles": true,
+        "passes": true,
+        "time": 66.8610486984253
+      },
+      {
+        "id": "Prob026",
+        "name": "alwaysblock1",
+        "compiles": false,
+        "passes": false,
+        "time": 43.95053505897522
+      },
+      {
+        "id": "Prob027",
+        "name": "fadd",
+        "compiles": false,
+        "passes": false,
+        "time": 94.36961197853088
+      },
+      {
+        "id": "Prob028",
+        "name": "m2014_q4a",
+        "compiles": false,
+        "passes": false,
+        "time": 102.04945993423462
+      },
+      {
+        "id": "Prob029",
+        "name": "m2014_q4g",
+        "compiles": false,
+        "passes": false,
+        "time": 102.63792896270752
+      },
+      {
+        "id": "Prob030",
+        "name": "popcount255",
+        "compiles": false,
+        "passes": false,
+        "time": 102.61082124710083
+      },
+      {
+        "id": "Prob031",
+        "name": "dff",
+        "compiles": false,
+        "passes": false,
+        "time": 101.32058024406433
+      },
+      {
+        "id": "Prob032",
+        "name": "vector0",
+        "compiles": false,
+        "passes": false,
+        "time": 92.82402300834656
+      },
+      {
+        "id": "Prob033",
+        "name": "ece241_2014_q1c",
+        "compiles": false,
+        "passes": false,
+        "time": 105.61088991165161
+      },
+      {
+        "id": "Prob034",
+        "name": "dff8",
+        "compiles": false,
+        "passes": false,
+        "time": 103.60557699203491
+      },
+      {
+        "id": "Prob035",
+        "name": "count1to10",
+        "compiles": true,
+        "passes": false,
+        "time": 103.20646619796753
+      },
+      {
+        "id": "Prob036",
+        "name": "ringer",
+        "compiles": false,
+        "passes": false,
+        "time": 62.97531199455261
+      },
+      {
+        "id": "Prob037",
+        "name": "review2015_count1k",
+        "compiles": false,
+        "passes": false,
+        "time": 107.45044302940369
+      },
+      {
+        "id": "Prob038",
+        "name": "count15",
+        "compiles": true,
+        "passes": true,
+        "time": 103.80027413368225
+      },
+      {
+        "id": "Prob039",
+        "name": "always_if",
+        "compiles": false,
+        "passes": false,
+        "time": 105.63400506973267
+      },
+      {
+        "id": "Prob040",
+        "name": "count10",
+        "compiles": false,
+        "passes": false,
+        "time": 104.30661487579346
+      },
+      {
+        "id": "Prob041",
+        "name": "dff8r",
+        "compiles": false,
+        "passes": false,
+        "time": 103.05414605140686
+      },
+      {
+        "id": "Prob042",
+        "name": "vector4",
+        "compiles": true,
+        "passes": true,
+        "time": 106.94542813301086
+      },
+      {
+        "id": "Prob043",
+        "name": "vector5",
+        "compiles": false,
+        "passes": false,
+        "time": 106.65769124031067
+      },
+      {
+        "id": "Prob044",
+        "name": "vectorgates",
+        "compiles": false,
+        "passes": false,
+        "time": 107.08437371253967
+      },
+      {
+        "id": "Prob045",
+        "name": "edgedetect2",
+        "compiles": false,
+        "passes": false,
+        "time": 104.52010321617126
+      },
+      {
+        "id": "Prob046",
+        "name": "dff8p",
+        "compiles": true,
+        "passes": false,
+        "time": 104.42742872238159
+      },
+      {
+        "id": "Prob047",
+        "name": "dff8ar",
+        "compiles": false,
+        "passes": false,
+        "time": 103.91325306892395
+      },
+      {
+        "id": "Prob048",
+        "name": "m2014_q4c",
+        "compiles": true,
+        "passes": true,
+        "time": 105.33565497398376
+      },
+      {
+        "id": "Prob049",
+        "name": "m2014_q4b",
+        "compiles": true,
+        "passes": true,
+        "time": 113.05344605445862
+      },
+      {
+        "id": "Prob050",
+        "name": "kmap1",
+        "compiles": false,
+        "passes": false,
+        "time": 106.96346998214722
+      },
+      {
+        "id": "Prob051",
+        "name": "gates4",
+        "compiles": true,
+        "passes": true,
+        "time": 107.31881904602051
+      },
+      {
+        "id": "Prob052",
+        "name": "gates100",
+        "compiles": true,
+        "passes": true,
+        "time": 104.49528288841248
+      },
+      {
+        "id": "Prob053",
+        "name": "m2014_q4d",
+        "compiles": false,
+        "passes": false,
+        "time": 105.53655505180359
+      },
+      {
+        "id": "Prob054",
+        "name": "edgedetect",
+        "compiles": true,
+        "passes": true,
+        "time": 105.7724289894104
+      },
+      {
+        "id": "Prob055",
+        "name": "conditional",
+        "compiles": true,
+        "passes": true,
+        "time": 104.88464522361755
+      },
+      {
+        "id": "Prob056",
+        "name": "ece241_2013_q7",
+        "compiles": true,
+        "passes": true,
+        "time": 108.80871725082397
+      },
+      {
+        "id": "Prob057",
+        "name": "kmap2",
+        "compiles": false,
+        "passes": false,
+        "time": 108.41420316696167
+      },
+      {
+        "id": "Prob058",
+        "name": "alwaysblock2",
+        "compiles": false,
+        "passes": false,
+        "time": 11879.925575971603
+      },
+      {
+        "id": "Prob059",
+        "name": "wire4",
+        "compiles": true,
+        "passes": true,
+        "time": 993.7193326950073
+      },
+      {
+        "id": "Prob060",
+        "name": "m2014_q4k",
+        "compiles": false,
+        "passes": false,
+        "time": 1744.7665691375732
+      },
+      {
+        "id": "Prob061",
+        "name": "2014_q4a",
+        "compiles": false,
+        "passes": false,
+        "time": 2275.4367430210114
+      },
+      {
+        "id": "Prob062",
+        "name": "bugs_mux2",
+        "compiles": true,
+        "passes": false,
+        "time": 1405.2754027843475
+      },
+      {
+        "id": "Prob063",
+        "name": "review2015_shiftcount",
+        "compiles": false,
+        "passes": false,
+        "time": 6541.040678977966
+      },
+      {
+        "id": "Prob064",
+        "name": "vector3",
+        "compiles": false,
+        "passes": false,
+        "time": 103.77069592475891
+      },
+      {
+        "id": "Prob065",
+        "name": "7420",
+        "compiles": true,
+        "passes": true,
+        "time": 73.09606719017029
+      },
+      {
+        "id": "Prob066",
+        "name": "edgecapture",
+        "compiles": false,
+        "passes": false,
+        "time": 104.87799191474915
+      },
+      {
+        "id": "Prob067",
+        "name": "countslow",
+        "compiles": false,
+        "passes": false,
+        "time": 104.33742070198059
+      },
+      {
+        "id": "Prob068",
+        "name": "countbcd",
+        "compiles": false,
+        "passes": false,
+        "time": 104.75088000297546
+      },
+      {
+        "id": "Prob069",
+        "name": "truthtable1",
+        "compiles": false,
+        "passes": false,
+        "time": 103.89139199256897
+      },
+      {
+        "id": "Prob070",
+        "name": "ece241_2013_q2",
+        "compiles": false,
+        "passes": false,
+        "time": 104.68860697746277
+      },
+      {
+        "id": "Prob071",
+        "name": "always_casez",
+        "compiles": false,
+        "passes": false,
+        "time": 102.03226923942566
+      },
+      {
+        "id": "Prob072",
+        "name": "thermostat",
+        "compiles": false,
+        "passes": false,
+        "time": 104.51379108428955
+      },
+      {
+        "id": "Prob073",
+        "name": "dff16e",
+        "compiles": false,
+        "passes": false,
+        "time": 103.47493195533752
+      },
+      {
+        "id": "Prob074",
+        "name": "ece241_2014_q4",
+        "compiles": false,
+        "passes": false,
+        "time": 107.91770792007446
+      },
+      {
+        "id": "Prob075",
+        "name": "counter_2bc",
+        "compiles": false,
+        "passes": false,
+        "time": 104.5524091720581
+      },
+      {
+        "id": "Prob076",
+        "name": "always_case",
+        "compiles": true,
+        "passes": true,
+        "time": 93.49277997016907
+      },
+      {
+        "id": "Prob077",
+        "name": "wire_decl",
+        "compiles": false,
+        "passes": false,
+        "time": 99.26706624031067
+      },
+      {
+        "id": "Prob078",
+        "name": "dualedge",
+        "compiles": false,
+        "passes": false,
+        "time": 103.0125823020935
+      },
+      {
+        "id": "Prob079",
+        "name": "fsm3onehot",
+        "compiles": true,
+        "passes": true,
+        "time": 105.17180895805359
+      },
+      {
+        "id": "Prob080",
+        "name": "timer",
+        "compiles": false,
+        "passes": false,
+        "time": 129.0522780418396
+      },
+      {
+        "id": "Prob081",
+        "name": "7458",
+        "compiles": true,
+        "passes": true,
+        "time": 139.33284211158752
+      },
+      {
+        "id": "Prob082",
+        "name": "lfsr32",
+        "compiles": false,
+        "passes": false,
+        "time": 115.39493775367737
+      },
+      {
+        "id": "Prob083",
+        "name": "mt2015_q4b",
+        "compiles": true,
+        "passes": true,
+        "time": 108.54590106010437
+      },
+      {
+        "id": "Prob084",
+        "name": "ece241_2013_q12",
+        "compiles": false,
+        "passes": false,
+        "time": 111.41013288497925
+      },
+      {
+        "id": "Prob085",
+        "name": "shift4",
+        "compiles": false,
+        "passes": false,
+        "time": 108.45463490486145
+      },
+      {
+        "id": "Prob086",
+        "name": "lfsr5",
+        "compiles": false,
+        "passes": false,
+        "time": 110.33159708976746
+      },
+      {
+        "id": "Prob087",
+        "name": "gates",
+        "compiles": true,
+        "passes": true,
+        "time": 109.85368990898132
+      },
+      {
+        "id": "Prob088",
+        "name": "ece241_2014_q5b",
+        "compiles": false,
+        "passes": false,
+        "time": 107.73082304000854
+      },
+      {
+        "id": "Prob089",
+        "name": "ece241_2014_q5a",
+        "compiles": false,
+        "passes": false,
+        "time": 109.36487984657288
+      },
+      {
+        "id": "Prob090",
+        "name": "circuit1",
+        "compiles": true,
+        "passes": true,
+        "time": 63.55006504058838
+      },
+      {
+        "id": "Prob091",
+        "name": "2012_q2b",
+        "compiles": false,
+        "passes": false,
+        "time": 114.12956714630127
+      },
+      {
+        "id": "Prob092",
+        "name": "gatesv100",
+        "compiles": false,
+        "passes": false,
+        "time": 113.62026071548462
+      },
+      {
+        "id": "Prob093",
+        "name": "ece241_2014_q3",
+        "compiles": false,
+        "passes": false,
+        "time": 114.30018520355225
+      },
+      {
+        "id": "Prob094",
+        "name": "gatesv",
+        "compiles": false,
+        "passes": false,
+        "time": 113.58318400382996
+      },
+      {
+        "id": "Prob095",
+        "name": "review2015_fsmshift",
+        "compiles": false,
+        "passes": false,
+        "time": 108.86478996276855
+      },
+      {
+        "id": "Prob096",
+        "name": "review2015_fsmseq",
+        "compiles": false,
+        "passes": false,
+        "time": 113.22589206695557
+      },
+      {
+        "id": "Prob097",
+        "name": "mux9to1v",
+        "compiles": true,
+        "passes": true,
+        "time": 110.74221706390381
+      },
+      {
+        "id": "Prob098",
+        "name": "circuit7",
+        "compiles": false,
+        "passes": false,
+        "time": 117.82446002960205
+      },
+      {
+        "id": "Prob099",
+        "name": "m2014_q6c",
+        "compiles": false,
+        "passes": false,
+        "time": 112.3057107925415
+      },
+      {
+        "id": "Prob100",
+        "name": "fsm3comb",
+        "compiles": true,
+        "passes": true,
+        "time": 108.64626693725586
+      },
+      {
+        "id": "Prob101",
+        "name": "circuit4",
+        "compiles": false,
+        "passes": false,
+        "time": 112.93593692779541
+      },
+      {
+        "id": "Prob102",
+        "name": "circuit3",
+        "compiles": false,
+        "passes": false,
+        "time": 113.2796380519867
+      },
+      {
+        "id": "Prob103",
+        "name": "circuit2",
+        "compiles": false,
+        "passes": false,
+        "time": 113.08929586410522
+      },
+      {
+        "id": "Prob104",
+        "name": "mt2015_muxdff",
+        "compiles": false,
+        "passes": false,
+        "time": 108.8205771446228
+      },
+      {
+        "id": "Prob105",
+        "name": "rotate100",
+        "compiles": false,
+        "passes": false,
+        "time": 110.56329393386841
+      },
+      {
+        "id": "Prob106",
+        "name": "always_nolatches",
+        "compiles": false,
+        "passes": false,
+        "time": 110.49432396888733
+      },
+      {
+        "id": "Prob107",
+        "name": "fsm1s",
+        "compiles": false,
+        "passes": false,
+        "time": 109.74224209785461
+      },
+      {
+        "id": "Prob108",
+        "name": "rule90",
+        "compiles": false,
+        "passes": false,
+        "time": 111.97799777984619
+      },
+      {
+        "id": "Prob109",
+        "name": "fsm1",
+        "compiles": true,
+        "passes": true,
+        "time": 107.3741991519928
+      },
+      {
+        "id": "Prob110",
+        "name": "fsm2",
+        "compiles": false,
+        "passes": false,
+        "time": 107.06476998329163
+      },
+      {
+        "id": "Prob111",
+        "name": "fsm2s",
+        "compiles": false,
+        "passes": false,
+        "time": 106.63102912902832
+      },
+      {
+        "id": "Prob112",
+        "name": "always_case2",
+        "compiles": false,
+        "passes": false,
+        "time": 106.84809494018555
+      },
+      {
+        "id": "Prob113",
+        "name": "2012_q1g",
+        "compiles": false,
+        "passes": false,
+        "time": 106.14489507675171
+      },
+      {
+        "id": "Prob114",
+        "name": "bugs_case",
+        "compiles": false,
+        "passes": false,
+        "time": 106.95443391799927
+      },
+      {
+        "id": "Prob115",
+        "name": "shift18",
+        "compiles": false,
+        "passes": false,
+        "time": 111.44845485687256
+      },
+      {
+        "id": "Prob116",
+        "name": "m2014_q3",
+        "compiles": false,
+        "passes": false,
+        "time": 107.67796301841736
+      },
+      {
+        "id": "Prob117",
+        "name": "circuit9",
+        "compiles": false,
+        "passes": false,
+        "time": 109.02593398094177
+      },
+      {
+        "id": "Prob118",
+        "name": "history_shift",
+        "compiles": false,
+        "passes": false,
+        "time": 108.92541193962097
+      },
+      {
+        "id": "Prob119",
+        "name": "fsm3",
+        "compiles": false,
+        "passes": false,
+        "time": 109.39720582962036
+      },
+      {
+        "id": "Prob120",
+        "name": "fsm3s",
+        "compiles": false,
+        "passes": false,
+        "time": 109.07679533958435
+      },
+      {
+        "id": "Prob121",
+        "name": "2014_q3bfsm",
+        "compiles": false,
+        "passes": false,
+        "time": 107.30845284461975
+      },
+      {
+        "id": "Prob122",
+        "name": "kmap4",
+        "compiles": false,
+        "passes": false,
+        "time": 104.90660524368286
+      },
+      {
+        "id": "Prob123",
+        "name": "bugs_addsubz",
+        "compiles": true,
+        "passes": false,
+        "time": 105.84448504447937
+      },
+      {
+        "id": "Prob124",
+        "name": "rule110",
+        "compiles": false,
+        "passes": false,
+        "time": 111.79249787330627
+      },
+      {
+        "id": "Prob125",
+        "name": "kmap3",
+        "compiles": false,
+        "passes": false,
+        "time": 105.92771005630493
+      },
+      {
+        "id": "Prob126",
+        "name": "circuit6",
+        "compiles": false,
+        "passes": false,
+        "time": 108.51095485687256
+      },
+      {
+        "id": "Prob127",
+        "name": "lemmings1",
+        "compiles": true,
+        "passes": false,
+        "time": 108.68814897537231
+      },
+      {
+        "id": "Prob128",
+        "name": "fsm_ps2",
+        "compiles": false,
+        "passes": false,
+        "time": 109.87366509437561
+      },
+      {
+        "id": "Prob129",
+        "name": "ece241_2013_q8",
+        "compiles": false,
+        "passes": false,
+        "time": 106.48479104042053
+      },
+      {
+        "id": "Prob130",
+        "name": "circuit5",
+        "compiles": false,
+        "passes": false,
+        "time": 110.42045998573303
+      },
+      {
+        "id": "Prob131",
+        "name": "mt2015_q4",
+        "compiles": false,
+        "passes": false,
+        "time": 110.00980687141418
+      },
+      {
+        "id": "Prob132",
+        "name": "always_if2",
+        "compiles": false,
+        "passes": false,
+        "time": 105.07343602180481
+      },
+      {
+        "id": "Prob133",
+        "name": "2014_q3fsm",
+        "compiles": false,
+        "passes": false,
+        "time": 106.4417610168457
+      },
+      {
+        "id": "Prob134",
+        "name": "2014_q3c",
+        "compiles": false,
+        "passes": false,
+        "time": 106.59963083267212
+      },
+      {
+        "id": "Prob135",
+        "name": "m2014_q6b",
+        "compiles": false,
+        "passes": false,
+        "time": 106.80982971191406
+      },
+      {
+        "id": "Prob136",
+        "name": "m2014_q6",
+        "compiles": false,
+        "passes": false,
+        "time": 106.01850390434265
+      },
+      {
+        "id": "Prob137",
+        "name": "fsm_serial",
+        "compiles": false,
+        "passes": false,
+        "time": 106.58817887306213
+      },
+      {
+        "id": "Prob138",
+        "name": "2012_q2fsm",
+        "compiles": false,
+        "passes": false,
+        "time": 107.92819571495056
+      },
+      {
+        "id": "Prob139",
+        "name": "2013_q2bfsm",
+        "compiles": false,
+        "passes": false,
+        "time": 108.47938990592957
+      },
+      {
+        "id": "Prob140",
+        "name": "fsm_hdlc",
+        "compiles": false,
+        "passes": false,
+        "time": 108.37452411651611
+      },
+      {
+        "id": "Prob141",
+        "name": "count_clock",
+        "compiles": false,
+        "passes": false,
+        "time": 109.05001902580261
+      },
+      {
+        "id": "Prob142",
+        "name": "lemmings2",
+        "compiles": false,
+        "passes": false,
+        "time": 111.10601496696472
+      },
+      {
+        "id": "Prob143",
+        "name": "fsm_onehot",
+        "compiles": false,
+        "passes": false,
+        "time": 113.94550681114197
+      },
+      {
+        "id": "Prob144",
+        "name": "conwaylife",
+        "compiles": false,
+        "passes": false,
+        "time": 110.42379903793335
+      },
+      {
+        "id": "Prob145",
+        "name": "circuit8",
+        "compiles": false,
+        "passes": false,
+        "time": 115.48504281044006
+      },
+      {
+        "id": "Prob146",
+        "name": "fsm_serialdata",
+        "compiles": false,
+        "passes": false,
+        "time": 108.06162309646606
+      },
+      {
+        "id": "Prob147",
+        "name": "circuit10",
+        "compiles": false,
+        "passes": false,
+        "time": 118.1910240650177
+      },
+      {
+        "id": "Prob148",
+        "name": "2013_q2afsm",
+        "compiles": false,
+        "passes": false,
+        "time": 111.85986685752869
+      },
+      {
+        "id": "Prob149",
+        "name": "ece241_2013_q4",
+        "compiles": false,
+        "passes": false,
+        "time": 109.27679800987244
+      },
+      {
+        "id": "Prob150",
+        "name": "review2015_fsmonehot",
+        "compiles": false,
+        "passes": false,
+        "time": 114.4154257774353
+      },
+      {
+        "id": "Prob151",
+        "name": "review2015_fsm",
+        "compiles": false,
+        "passes": false,
+        "time": 109.05744004249573
+      },
+      {
+        "id": "Prob152",
+        "name": "lemmings3",
+        "compiles": false,
+        "passes": false,
+        "time": 115.71107387542725
+      },
+      {
+        "id": "Prob153",
+        "name": "gshare",
+        "compiles": false,
+        "passes": false,
+        "time": 114.68149399757385
+      },
+      {
+        "id": "Prob154",
+        "name": "fsm_ps2data",
+        "compiles": false,
+        "passes": false,
+        "time": 121.11949729919434
+      },
+      {
+        "id": "Prob155",
+        "name": "lemmings4",
+        "compiles": false,
+        "passes": false,
+        "time": 114.38970017433167
+      },
+      {
+        "id": "Prob156",
+        "name": "review2015_fancytimer",
+        "compiles": false,
+        "passes": false,
+        "time": 110.7697229385376
+      }
+    ]
+  }
+}

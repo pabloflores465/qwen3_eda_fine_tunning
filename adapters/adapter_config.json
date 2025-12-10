@@ -6,7 +6,7 @@
     "fine_tune_type": "lora",
     "grad_accumulation_steps": 1,
     "grad_checkpoint": true,
-    "iters": 10000,
+    "iters": 5000,
     "learning_rate": 0.0001,
     "lora_parameters": {
         "rank": 8,
@@ -15,7 +15,7 @@
     },
     "lr_schedule": null,
     "mask_prompt": false,
-    "max_seq_length": 512,
+    "max_seq_length": 256,
     "model": "Qwen3-4B-Thinking-2507-MLX-4bit",
     "num_layers": 4,
     "optimizer": "adam",
@@ -31,10 +31,10 @@
     "resume_adapter_file": null,
     "save_every": 500,
     "seed": 42,
-    "steps_per_eval": 500,
+    "steps_per_eval": 1000,
     "steps_per_report": 10,
     "test": false,
     "test_batches": 500,
     "train": true,
-    "val_batches": 2
+    "val_batches": 1
 }
